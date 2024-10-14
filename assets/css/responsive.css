@@ -1,0 +1,67 @@
+@media screen and (max-width : 1280px) {
+    section.team .container,
+    .sh_container{
+        width: 95%;
+    }
+    .who_bottom .bottom_right img,
+    .bottom_left img{
+        object-fit: cover;
+    }
+}
+@media screen and (max-width : 1024px) {
+    .testimonial_row{
+        width: 95%;
+    }
+    h1.section-title,
+    h2.section-title{
+        font-size: 42px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .who_we_inner{
+        flex-direction: column;
+    }
+    .who_left{
+        width: 100%;
+    }
+    
+    .who_right{
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+
+    }
+    .who_bottom{
+        flex-direction: column;
+    }
+    .who_bottom .bottom_right,
+    .who_bottom .bottom_left{
+width: 100%;
+height: 300px;
+    }
+    .about_boxes{
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+    .about_box{
+        width: 48%;
+    }
+}
+@media screen and (max-width : 600px) {
+    .about_box{
+        width: 100%;
+    }
+    section.team .container .team-member .name{
+        padding: 15px 10px;
+    }
+}
+@media screen and (max-width : 500px) {
+    h1.section-title,
+    h2.section-title{
+        font-size: 35px;
+    }
+    .talk_btn,
+    .services_btn{
+        padding: 15px 35px;
+    }
+}
